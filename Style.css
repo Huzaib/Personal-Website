@@ -1,0 +1,104 @@
+*{
+color:black;
+*/ background:rgba(3,6,4,0.27);
+
+
+margin:50px;
+}
+*/ .Link{
+margin-down:3px;
+}
+a{color:blue;
+background:white;}
+a:active{color:red;}
+
+img:hover{
+transform:translate(36px);}
+a:hover{
+background:red;
+color:white;
+font-size:30px;}
+  h1,h2{
+color:white;
+background-color:black;
+}
+
+textarea{
+background:linear-gradient(70deg,rgb(234,235,245,0.8),rgb(21,12,42,0.8)),url("./Huzaib2.jpg");
+background-size:cover;
+}
+
+h3{
+color:maroon;
+
+}
+p{
+color:gray;
+}
+.red{
+color:red;
+font-size:60px;
+}
+.yellow
+{
+color:brown;
+font-size:50px;
+}
+img{
+margin:50px;
+border:40px dashed #00;
+outline:7px dashed black ;
+outline_offset:3rem;
+border-radius:60%;
+positon:absolute;
+width:70%;
+height:70%;
+transition:translate 10s linear;
+
+left:90px;
+}
+table{
+outline:20px solid black;
+outline-offset:10px;
+background:black;
+}
+ul li a{
+text-decoration:none;
+list-style-type:alpha;
+background:black;
+display:inline-block;
+padding:0 20px;
+margin:0 0;
+}
+
+div::before{content:"";
+border:4px solid black;
+border-radius:60%;
+position:absolute;
+height:89%;
+width:70%;
+top:20px;
+left:-30px;
+z-index:-5;}
+
+
+div::after{content:"";
+border:4px solid black;
+border-radius:60%;
+background:grey;
+position:absolute;
+top:20px;
+left:3px;
+width:70%;
+height:89%;
+z-index:-2;
+transition:all 0.5s linear;
+}
+div{position:relative;}
+div:hover::after{
+top:0;
+lef:0;
+}
+
+
+

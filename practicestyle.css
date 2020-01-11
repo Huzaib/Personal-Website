@@ -1,0 +1,44 @@
+h1{ text-decoration:overline;
+   background:red;
+padding-top: 30px;
+padding-bottom: 30px;
+padding-left: 300px;
+padding-right: 30px;
+margin: 20px 30px;
+border: 20px dashed blue;
+border-radius:100%;
+margin-bottom:-80px;
+
+
+
+}
+p{
+background:blue;
+padding: 20px 50px 45px 700px;
+border-bottom: 50px dashed red;
+border-radius:50px;
+margin top:-70px;
+
+}
+.one{
+float:left;
+background:red;
+width:33.33%;
+color:white;
+height:30vh;}
+
+.two{
+float:left;
+background:blue;
+width:33.33%;
+color:white;
+height:30vh;
+}
+
+.three{
+float:left;
+background:black;
+width:33.33%;
+color:white;
+height:30vh;}
+
